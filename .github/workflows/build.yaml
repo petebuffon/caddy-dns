@@ -40,5 +40,3 @@ jobs:
             petebuffon/caddy-dns/cloudflare:2.3.0
             ghcr.io/petebuffon/caddy-dns/cloudflare:latest
             ghcr.io/petebuffon/caddy-dns/cloudflare:2.3.0
-        name: Image digest
-        run: echo ${{ steps.docker_build.outputs.digest }}
