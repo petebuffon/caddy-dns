@@ -36,7 +36,5 @@ jobs:
           context: .
           push: true
           tags: |
-            petebuffon/caddy-dns/cloudflare:latest
-            petebuffon/caddy-dns/cloudflare:2.3.0
             ghcr.io/petebuffon/caddy-dns/cloudflare:latest
             ghcr.io/petebuffon/caddy-dns/cloudflare:2.3.0
